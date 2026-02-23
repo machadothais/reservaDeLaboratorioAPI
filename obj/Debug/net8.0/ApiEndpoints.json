@@ -1,0 +1,423 @@
+[
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ContatoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Contato",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ContatoController",
+    "Method": "Create",
+    "RelativePath": "api/Contato",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.ContatoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ContatoController",
+    "Method": "GetById",
+    "RelativePath": "api/Contato/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ObterContato"
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ContatoController",
+    "Method": "Update",
+    "RelativePath": "api/Contato/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.ContatoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ContatoController",
+    "Method": "Delete",
+    "RelativePath": "api/Contato/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.LaboratoriosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Laboratorios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.LaboratoriosController",
+    "Method": "Create",
+    "RelativePath": "api/Laboratorios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.LaboratorioRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.LaboratoriosController",
+    "Method": "GetById",
+    "RelativePath": "api/Laboratorios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ObterLaboratorio"
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.LaboratoriosController",
+    "Method": "Update",
+    "RelativePath": "api/Laboratorios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.LaboratorioRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.LaboratoriosController",
+    "Method": "Delete",
+    "RelativePath": "api/Laboratorios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ProfessoresController",
+    "Method": "GetAll",
+    "RelativePath": "api/Professores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ProfessoresController",
+    "Method": "Create",
+    "RelativePath": "api/Professores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.ProfessorRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ProfessoresController",
+    "Method": "GetById",
+    "RelativePath": "api/Professores/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ObterProfessor"
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ProfessoresController",
+    "Method": "Update",
+    "RelativePath": "api/Professores/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.ProfessorRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ProfessoresController",
+    "Method": "Delete",
+    "RelativePath": "api/Professores/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ReservasController",
+    "Method": "GetAllReservas",
+    "RelativePath": "api/Reservas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ReservasController",
+    "Method": "Post",
+    "RelativePath": "api/Reservas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.ReservaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ReservasController",
+    "Method": "GetReservaById",
+    "RelativePath": "api/Reservas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ObterReserva"
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ReservasController",
+    "Method": "UpdateReserva",
+    "RelativePath": "api/Reservas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.ReservaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.ReservasController",
+    "Method": "DeleteReserva",
+    "RelativePath": "api/Reservas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.TurmasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Turmas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.TurmasController",
+    "Method": "Create",
+    "RelativePath": "api/Turmas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.TurmaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.TurmasController",
+    "Method": "GetById",
+    "RelativePath": "api/Turmas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ObterTurma"
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.TurmasController",
+    "Method": "Update",
+    "RelativePath": "api/Turmas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "reservaDeLaboratorioAPI.DTO.TurmaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.TurmasController",
+    "Method": "Delete",
+    "RelativePath": "api/Turmas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reservaDeLaboratorioAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[reservaDeLaboratorioAPI.WeatherForecast, reservaDeLaboratorioAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

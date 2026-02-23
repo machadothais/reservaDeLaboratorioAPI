@@ -1,0 +1,6 @@
+@reservaDeLaboratorioAPI_HostAddress = http://localhost:5038
+
+GET {{reservaDeLaboratorioAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
